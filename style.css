@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.top{
+    height: 20vh;
+    width: 100%;
+    background-image: url(one\ piece\ background\ img.jpg), linear-gradient(#0e9bb4e7, #37cad4d2);
+    background-position: 50px;
+    background-repeat: inherit;
+    background-size: 250vh, 50px;
+    background-blend-mode: darken;
+}
+
+.title{
+    height: 15vh;
+    width: 40vh;
+    position: absolute;
+    top: 2.5vh;
+    left: 2.5vh;
+}
+
+.nav{
+    display: flex;
+    position: absolute;
+    right: 7%;
+    color: white;
+    align-items: center;
+    top: 8%;
+    list-style-type: none;
+}
+
+.nav a{
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover{
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 5px, solid, blue;
+}
