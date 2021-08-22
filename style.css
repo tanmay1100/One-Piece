@@ -32,17 +32,33 @@
     list-style-type: none;
 }
 
+.nav li{
+    padding-bottom: 10px;
+}
+
 .nav a{
     margin: 10px;
     font-size: 20px;
     text-decoration: none;
     color: white;
+    border-bottom: transparent;
 }
 
 .nav a:hover{
     margin: 10px;
     font-size: 20px;
-    text-decoration: none;
     color: white;
-    border-bottom: 5px, solid, blue;
+    padding-bottom: 10px;
+    border-bottom: solid, blue, 10px;
+}
+
+.body{
+    font-size: 35px;
+    text-align: center;
+    margin: 5vh;
+}
+
+.body p{
+    background-color: yellow;
+    border-bottom: 10px, solid, blue;
 }
