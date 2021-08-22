@@ -56,9 +56,6 @@
     font-size: 35px;
     text-align: center;
     margin: 5vh;
+    
 }
 
-.body p{
-    background-color: yellow;
-    border-bottom: 10px, solid, blue;
-}
